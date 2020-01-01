@@ -1,3 +1,5 @@
+[Home](https://sinclair-seo.github.io/SPT-3004_Architecture_AA/)
+
 # Chapter 01 소프트웨어 아키텍처의 설계
 ## 1. 아키텍처란 무엇인가?
 [What is your definition of software
@@ -15,8 +17,24 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
 
 ## 3. 비즈니스 아키텍처 설계
 ### 3.1. 서비스 개요
-### 3.2. 시장 현황 분석 [선택 사항]
+### 3.2. 시장 현황 분석
+[Gartner Magic Quadrant & Critical Capabilities](https://www.gartner.com/en/research/magic-quadrant)
 ### 3.3. 주요 기능 정의
 ### 3.4. 도메인 모델
 ### 3.5. 전체 아키텍처
 ### 3.6. 비즈니스 로드맵
+
+## 4. 아키텍처 설계 원칙의 정의
+## 5. 시스템 아키텍처 설계
+![아키텍처 설계 프레임워크](/images/아키텍처_설계_프레임워크.png "아키텍처 설계 프레임워크")
+### 5.1. 애플리케이션 아키텍처 설계
+### 5.2. 테크니컬 아키텍처
+### 5.3. 데이터 아키텍처
+
+## 6. 아키텍처 결정 프로세스
+### 6.1. 아키텍처 결정 프로세스 정의
+### 6.2. AD 템플릿
+
+## 7. 효과적인 아키텍트의 역할과 종류
+### 7.1. 아키텍트 역할
+### 7.2. 아키텍트의 종류
