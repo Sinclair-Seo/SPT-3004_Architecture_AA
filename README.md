@@ -38,7 +38,7 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
 - [TOGAF](https://www.opengroup.org/togaf) (The Open Group Architecture Framework)
 - [Federal Enterprise Architecture](https://en.wikipedia.org/wiki/Federal_enterprise_architecture)
 
-![아키텍처 설계 프로세스](/images/아키텍처_설계_프로세스.png "아키텍처 설계 프로세스")
+![아키텍처 설계 프로세스](/SPT-3004_Architecture_AA/images/아키텍처_설계_프로세스.png "아키텍처 설계 프로세스")
 
 ## 3. 비즈니스 아키텍처 설계
 ### 3.1. 서비스 개요
@@ -51,20 +51,20 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
 
 ## 4. 아키텍처 설계 원칙의 정의
 ## 5. 시스템 아키텍처 설계
-![아키텍처 설계 프레임워크](/images/아키텍처_설계_프레임워크.png "아키텍처 설계 프레임워크")
+![아키텍처 설계 프레임워크](/SPT-3004_Architecture_AA/images/아키텍처_설계_프레임워크.png "아키텍처 설계 프레임워크")
 ### 5.1. 애플리케이션 아키텍처 설계
-![애플리케이션 아키텍처 구성 요소](/images/애플리케이션_아키텍처_구성_요소.jpg "애플리케이션 아키텍처 구성 요소")
+![애플리케이션 아키텍처 구성 요소](/SPT-3004_Architecture_AA/images/애플리케이션_아키텍처_구성_요소.jpg "애플리케이션 아키텍처 구성 요소")
 
 - 정적 아키텍처(Static Architecture)
     - 계층 모델    
-    ![정적 아키텍처](/images/정적_아키텍처.png "정적 아키텍처")
+    ![정적 아키텍처](/SPT-3004_Architecture_AA/images/정적_아키텍처.png "정적 아키텍처")
     - 컴포넌트간 관계    
-    ![컴포넌트 간 관계 표시도](/images/컴포넌트_간_관계_표시도.png "컴포넌트 간 관계 표시도")
+    ![컴포넌트 간 관계 표시도](/SPT-3004_Architecture_AA/images/컴포넌트_간_관계_표시도.png "컴포넌트 간 관계 표시도")
     
 - 동적 아키텍처(Dynamic Architecture)    
-    ![동적 아키텍처 설계 예시](/images/동적_아키텍처_설계_예시.jpg "동적 아키텍처 설계 예시")
+    ![동적 아키텍처 설계 예시](/SPT-3004_Architecture_AA/images/동적_아키텍처_설계_예시.jpg "동적 아키텍처 설계 예시")
 - 상세 아키텍처 설계 (Detail Architecture)    
-    ![상세 아키텍처 예시](/images/상세_아키텍처_예시.png "상세 아키텍처 예시")
+    ![상세 아키텍처 예시](/SPT-3004_Architecture_AA/images/상세_아키텍처_예시.png "상세 아키텍처 예시")
 - 인터페이스 정의서(Interface Definition)
     - 프로토콜 정의 (REST, FTP, Google protocol buffer)
     - 메세지 포맷 정의 (REST API 정의서)
@@ -74,7 +74,7 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
         - 동기/비동기
         - ETL 방식
     
-    ![Rabbit MQ 기반의 메세지 패턴](/images/Rabbit_MQ_기반의_메세지_패턴.png "Rabbit MQ 기반의 메세지 패턴")
+    ![Rabbit MQ 기반의 메세지 패턴](/SPT-3004_Architecture_AA/images/Rabbit_MQ_기반의_메세지_패턴.png "Rabbit MQ 기반의 메세지 패턴")
     
     [(참고)Enterprise Integration Patterns](https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns)
 
