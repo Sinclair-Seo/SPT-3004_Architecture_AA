@@ -78,8 +78,26 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
     
     [(참고)Enterprise Integration Patterns](https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns)
 
-
 ### 5.2. 테크니컬 아키텍처
+- 서버 디자인 아키텍처
+    - CPU, 내장 디스크, 메모리 구성, 네트워크 인터페이스 구성 등
+    - 서버 타입 정의 (웹 서버, 데이타베이스 서버 등)    
+    ![클라우드 서버 설계](/SPT-3004_Architecture_AA/images/클라우드_서버_설계.png "클라우드 서버 설계")
+- 네트워크 디자인 아키텍처
+    - 망 종류 - 스토리지 네트워크, 관리 네트워크, 서비스 네트워크 등
+    - 외부 네트워크와 연결하기 위한 라우터
+    - 백본이 되는 L2, 로드 밸런싱을 위한 L4, L7
+    - 보안을 위한 IPS, 내부 IP를 이용하기 위한 NAT
+    - LAN 구성, 방화벽 구성
+    - Subnet 구성 등    
+    ![네트워크 아키텍처](/SPT-3004_Architecture_AA/images/네트워크_아키텍처.png "네트워크 아키텍처")
+- 스토리지 디자인 아키텍처
+    - 스토리지 타입 정의 (DAS, NFS, SAN 등)
+    - 스토리지 컨트롤러, 물리 디스크 (SAS, SATA, RPM 등)
+    - 스토리지 연결 네트워크
+    - RAID 구성 등을 정의    
+    ![스토리지 아키텍처](/SPT-3004_Architecture_AA/images/스토리지_아키텍처.png "스토리지 아키텍처")
+    
 ### 5.3. 데이터 아키텍처
 
 ## 6. 아키텍처 결정 프로세스
