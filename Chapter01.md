@@ -37,6 +37,8 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
     
 - 동적 아키텍처(Dynamic Architecture)    
     ![동적 아키텍처 설계 예시](/images/동적_아키텍처_설계_예시.jpg "동적 아키텍처 설계 예시")
+- 상세 아키텍처 설계 (Detail Architecture)    
+    ![상세 아키텍처 예시](/images/상세_아키텍처_예시.png "상세 아키텍처 예시")
 - 인터페이스 정의서(Interface Definition)
 
 
