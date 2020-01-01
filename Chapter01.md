@@ -49,6 +49,8 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
         - ETL 방식
     
     ![Rabbit MQ 기반의 메세지 패턴](/images/Rabbit_MQ_기반의_메세지_패턴.png "Rabbit MQ 기반의 메세지 패턴")
+    
+    [(참고)Enterprise Integration Patterns](https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns)
 
 
 ### 5.2. 테크니컬 아키텍처
