@@ -40,6 +40,15 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
 - 상세 아키텍처 설계 (Detail Architecture)    
     ![상세 아키텍처 예시](/images/상세_아키텍처_예시.png "상세 아키텍처 예시")
 - 인터페이스 정의서(Interface Definition)
+    - 프로토콜 정의 (REST, FTP, Google protocol buffer)
+    - 메세지 포맷 정의 (REST API 정의서)
+    
+        [(참고)AWS S3 OpenAPI 명세서](https://docs.aws.amazon.com/AmazonS3/latest/API/archive-v2-RESTBucketGET.html)
+    - 메세지 전달 방식 정의 (aka Message Exchange Pattern, MEP)
+        - 동기/비동기
+        - ETL 방식
+    
+    ![Rabbit MQ 기반의 메세지 패턴](/images/Rabbit_MQ_기반의_메세지_패턴.png "Rabbit MQ 기반의 메세지 패턴")
 
 
 ### 5.2. 테크니컬 아키텍처
