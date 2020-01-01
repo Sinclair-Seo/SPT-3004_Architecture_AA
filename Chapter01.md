@@ -31,7 +31,7 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
     - 계층 모델
     - 컴포넌트간 관계
     
-    ![정적 아키텍처](/images/정적_아키텍처png "정적 아키텍처")
+    ![정적 아키텍처](/images/정적_아키텍처.png "정적 아키텍처")
 - 동적 아키텍처(Dynamic Architecture)
 - 인터페이스 정의서(Interface Definition)
 
