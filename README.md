@@ -89,6 +89,7 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
     ![스토리지 아키텍처](/SPT-3004_Architecture_AA/images/스토리지_아키텍처.png "스토리지 아키텍처")
 - 솔루션 배포 아키텍처   
     ![아마존 클라우드 기반 배포 모델 설계 예시](/SPT-3004_Architecture_AA/images/아마존_클라우드_기반_배포_모델_설계_예시.png "아마존 클라우드 기반 배포 모델 설계 예시")
+    
 ### 5.3. 데이터 아키텍처
 - 시스템에 저장되는 데이타에 대한 아키텍처 정의
     - 데이타 구조
@@ -106,6 +107,7 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
     - 데이타 저장소
         - 정의된 데이타 모델에 대한 솔루션별 저장소 아키텍처 정의   
         ![데이타 아키텍처](/SPT-3004_Architecture_AA/images/데이타_아키텍처.png "데이타 아키텍처")
+        
 ## 6. 아키텍처 결정 프로세스
 ### 6.1. 아키텍처 결정 프로세스 정의
 - Architecture Decision (aka. AD)
@@ -113,6 +115,7 @@ architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_
     - 요인: 비용, 기술 선택, 조직의 보유 능력, 회사 전략 등
     - 최고 의사 결정 조직이 있어야 함 (CTO, Chief 아키텍트 등)    
     ![Architecture Decision](/SPT-3004_Architecture_AA/images/Architecture_Decision.png "Architecture Decision")
+    
 ### 6.2. AD 템플릿
 - 각 옵션별 아키텍처에 대한 설명
 - 옵션별 장단점, 의사 결정 결과, 임팩트 등을 한 장에 설명
