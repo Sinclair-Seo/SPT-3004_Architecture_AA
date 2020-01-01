@@ -2,34 +2,94 @@
 조대협의 서버 사이드 대용량 아키텍처와 성능 튜닝
 
 # Part_01 아키텍처 설계 방법
-## [Chapter 01 소프트웨어 아키텍처의 설계][1]
-### 1. 아키텍처란 무엇인가?
-### 2. 아키텍처 설계 프로세스
-### 3. 비즈니스 아키텍처 설계
-#### 3.1. 서비스 개요
-#### 3.2. 시장 현황 분석 [선택 사항]
-#### 3.3. 주요 기능 정의
-#### 3.4. 도메인 모델
-#### 3.5. 전체 아키텍처
-#### 3.6. 비즈니스 로드맵
-
-[1]: <./Chapter01.md> "소프트웨어 아키텍처의 설계"
-
-### 4. 아키텍처 설계 원칙의 정의
-### 5. 시스템 아키텍처 설계
-#### 5.1. 애플리케이션 아키텍처 설계
-#### 5.2. 테크니컬 아키텍처
-#### 5.3. 데이터 아키텍처
-
-### 6. 아키텍처 결정 프로세스
-#### 6.1. 아키텍처 결정 프로세스 정의
-#### 6.2. AD 템플릿
-
-### 7. 효과적인 아키텍트의 역할과 종류
-#### 7.1. 아키텍트 역할
-#### 7.2. 아키텍트의 종류
+## [Chapter 01 소프트웨어 아키텍처의 설계](# Chapter 01 소프트웨어 아키텍처의 설계)
 
 # Part_02 레퍼런스 아키텍처
+## [Chapter 02 SOA](# Chapter 02 SOA)
+
+## [Chapter 03 마이크로 서비스 아키텍처](# Chapter 03 마이크로 서비스 아키텍처)
+
+## [Chapter 04 REST의 이해와 설계](# Chapter 04 REST의 이해와 설계)
+
+## [Chapter 05 대용량 실시간 데이터 처리를 위한 람다 아키텍처](# Chapter 05 대용량 실시간 데이터 처리를 위한 람다 아키텍처)
+
+# Part_04 대용량 아키텍처
+## [Chapter 06 대용량 서비스 레퍼런스 아키텍처](# Chapter 06 대용량 서비스 레퍼런스 아키텍처)
+
+## [Chapter 07 NoSQL](# Chapter 07 NoSQL)
+
+# Part_04 성능 엔지니어링
+## [Chapter 08 성능 엔지니어링의 정의와 범위](# Chapter 08 성능 엔지니어링의 정의와 범위)
+
+## [Chaper 09 JVM과 톰캣 튜닝](# Chaper 09 JVM과 톰캣 튜닝)
+
+## [Chapter 10 애플리케이션 서버의 병목 발견 방법](# Chapter 10 애플리케이션 서버의 병목 발견 방법)
+
+
+# Chapter 01 소프트웨어 아키텍처의 설계
+## 1. 아키텍처란 무엇인가?
+[What is your definition of software
+architecture?](https://resources.sei.cmu.edu/asset_files/FactSheet/2010_010_001_513810.pdf)
+
+> "아키텍처는 비즈니스 요구 사항을 만족하는 시스템을 구축하기 위해서 전체 시스템에 대한 구조를 정의한 문서로, 시스템을 구성하는 컴포넌트와 그 컴포넌트 간의 관계, 그리고 컴포넌트가 다루는 정보(데이터)를 정의한다."
+
+## 2. 아키텍처 설계 프로세스
+- [Zachman Framework](https://en.wikipedia.org/wiki/Zachman_Framework)
+- [TOGAF](https://www.opengroup.org/togaf) (The Open Group Architecture Framework)
+- [Federal Enterprise Architecture](https://en.wikipedia.org/wiki/Federal_enterprise_architecture)
+
+![아키텍처 설계 프로세스](/images/아키텍처_설계_프로세스.png "아키텍처 설계 프로세스")
+
+## 3. 비즈니스 아키텍처 설계
+### 3.1. 서비스 개요
+### 3.2. 시장 현황 분석
+[Gartner Magic Quadrant & Critical Capabilities](https://www.gartner.com/en/research/magic-quadrant)
+### 3.3. 주요 기능 정의
+### 3.4. 도메인 모델
+### 3.5. 전체 아키텍처
+### 3.6. 비즈니스 로드맵
+
+## 4. 아키텍처 설계 원칙의 정의
+## 5. 시스템 아키텍처 설계
+![아키텍처 설계 프레임워크](/images/아키텍처_설계_프레임워크.png "아키텍처 설계 프레임워크")
+### 5.1. 애플리케이션 아키텍처 설계
+![애플리케이션 아키텍처 구성 요소](/images/애플리케이션_아키텍처_구성_요소.jpg "애플리케이션 아키텍처 구성 요소")
+
+- 정적 아키텍처(Static Architecture)
+    - 계층 모델    
+    ![정적 아키텍처](/images/정적_아키텍처.png "정적 아키텍처")
+    - 컴포넌트간 관계    
+    ![컴포넌트 간 관계 표시도](/images/컴포넌트_간_관계_표시도.png "컴포넌트 간 관계 표시도")
+    
+- 동적 아키텍처(Dynamic Architecture)    
+    ![동적 아키텍처 설계 예시](/images/동적_아키텍처_설계_예시.jpg "동적 아키텍처 설계 예시")
+- 상세 아키텍처 설계 (Detail Architecture)    
+    ![상세 아키텍처 예시](/images/상세_아키텍처_예시.png "상세 아키텍처 예시")
+- 인터페이스 정의서(Interface Definition)
+    - 프로토콜 정의 (REST, FTP, Google protocol buffer)
+    - 메세지 포맷 정의 (REST API 정의서)
+    
+        [(참고)AWS S3 OpenAPI 명세서](https://docs.aws.amazon.com/AmazonS3/latest/API/archive-v2-RESTBucketGET.html)
+    - 메세지 전달 방식 정의 (aka Message Exchange Pattern, MEP)
+        - 동기/비동기
+        - ETL 방식
+    
+    ![Rabbit MQ 기반의 메세지 패턴](/images/Rabbit_MQ_기반의_메세지_패턴.png "Rabbit MQ 기반의 메세지 패턴")
+    
+    [(참고)Enterprise Integration Patterns](https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns)
+
+
+### 5.2. 테크니컬 아키텍처
+### 5.3. 데이터 아키텍처
+
+## 6. 아키텍처 결정 프로세스
+### 6.1. 아키텍처 결정 프로세스 정의
+### 6.2. AD 템플릿
+
+## 7. 효과적인 아키텍트의 역할과 종류
+### 7.1. 아키텍트 역할
+### 7.2. 아키텍트의 종류
+
 ## Chapter 02 SOA
 ### 1. SOA의 기본 개념
 ### 2. SOA에서 서비스의 정의
@@ -179,7 +239,7 @@
 
 ### 4. 성능 엔지니어링을 위해 필요한 것들
 
-## Chaper JVM과 톰캣 튜닝
+## Chaper 09 JVM과 톰캣 튜닝
 ### 1. JVM 튜닝
 #### 1.1. GC란 무엇인가?
 #### 1.2. GC의 동작방법은 어떻게 되는가?
